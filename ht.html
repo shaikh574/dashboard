@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <div class="sidebar" id="sidebar">
+            <div class="logo" id="logo">
+                <span>Logo</span>
+            </div>
+            <ul class="menu">
+                <li><a href="#dashboard" data-target="dashboard" class="active">Dashboard</a></li>
+                <li><a href="#classes" data-target="classes">Classes</a></li>
+                <li><a href="#resources" data-target="resources">Resources</a></li>
+                <li><a href="#learning-plan" data-target="learning-plan">Learning Plan</a></li>
+                <li><a href="#chat" data-target="chat">Chat</a></li>
+                <li><a href="#settings" data-target="settings">Settings</a></li>
+            </ul>
+            <button class="upgrade-button">Upgrade to PRO</button>
+        </div>
+
+        <div class="content">
+            <div id="dashboard" class="page active">
+                <div class="header">
+                    <h2>Welcome back Anna!</h2>
+                    <p>You've learned <strong>80%</strong> of your goal this week! Keep it up and improve your results!</p>
+                </div>
+
+                <div class="stats">
+                    <div class="latest-results">
+                        <h3>Latest Results</h3>
+                        <div class="progress-bar-container">
+                            <label>Unit 5 - Technology</label>
+                            <div class="progress-bar">
+                                <div class="progress" data-value="25"></div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <label>Unit 12 - Ecology</label>
+                            <div class="progress-bar">
+                                <div class="progress" data-value="44"></div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <label>Unit 9 - Real Estate</label>
+                            <div class="progress-bar">
+                                <div class="progress" data-value="40"></div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <label>Unit 8 - Education</label>
+                            <div class="progress-bar">
+                                <div class="progress" data-value="15"></div>
+                            </div>
+                        </div>
+                        <div class="progress-bar-container">
+                            <label>Unit 16 - Job Market</label>
+                            <div class="progress-bar">
+                                <div class="progress" data-value="76"></div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="time-spent">
+                        <h3>Time Spent on Learning</h3>
+                        <div class="chart">
+                            <div class="bar" data-value="50"></div>
+                            <div class="bar" data-value="75"></div>
+                            <div class="bar" data-value="60"></div>
+                            <div class="bar" data-value="40"></div>
+                            <div class="bar" data-value="80"></div>
+                            <div class="bar" data-value="35"></div>
+                            <div class="bar" data-value="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="courses">
+                    <h3>Your Courses</h3>
+                    <div class="course">
+                        <span class="course-level">B2</span>
+                        <span class="course-name">Business English Grammar</span>
+                    </div>
+                    <div class="course">
+                        <span class="course-level">B2</span>
+                        <span class="course-name">Common English Phrasal Verbs</span>
+                    </div>
+                    <div class="course">
+                        <span class="course-level">C1</span>
+                        <span class="course-name">Business Spanish Vocabulary</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="user-info">
+                <div class="user">
+                    <div class="user-avatar">
+                    <div class="user-details">
+                        <h4>Anna Morrison</h4>
+                        <p>Student</p>
+                    </div>
+                </div>
+
+                <div class="language-skills">
+                    <h3>Language Skills</h3>
+                    <div class="skill">
+                        <label>English</label>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="80"></div>
+                        </div>
+                    </div>
+                    <div class="skill">
+                        <label>Spanish</label>
+                        <div class="progress-bar">
+                            <div class="progress" data-value="90"></div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="reminders">
+                    <h3>Reminders</h3>
+                    <ul>
+                        <li>Eng - Vocabulary Test</li>
+                        <li>Eng - Send Grammar Homework</li>
+                        <li>Spanish - Send Essay</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
